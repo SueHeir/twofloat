@@ -68,6 +68,7 @@ possible through the Serde library.
 use core::fmt;
 
 mod math_util;
+mod simba;
 
 #[macro_use]
 mod ops_util;
