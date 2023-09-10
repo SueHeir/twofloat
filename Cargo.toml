@@ -33,6 +33,7 @@ serde = { version = "1.0", default-features = false, features = [
     "derive",
 ], optional = true }
 approx = "0.5.1"
+simba = { version = "0.8", optional = true }
 
 [target.'cfg(all(windows, target_env = "gnu"))'.dependencies]
 libm = "0.2.6"

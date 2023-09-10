@@ -56,7 +56,7 @@ possible through the Serde library.
   28–31.
 */
 
-#![forbid(unsafe_code)]
+// #![forbid(unsafe_code)]
 // Disable irrelevant lints
 #![allow(clippy::approx_constant)]
 #![allow(clippy::excessive_precision)]
